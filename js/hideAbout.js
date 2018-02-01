@@ -30,7 +30,7 @@ var settings = {
  
  alert("Thanku " +name+ " for contacting . i will get back to u soon...have a great Day");
 
-$.ajax('http://api.msg91.com/api/sendhttp.php?sender=MSGIND&route=4&mobiles=919536336639&authkey=195354ADqhVeq5rCfn5a6c587b&encrypt=&country=91&message=' + name+" from "+email+" saying :    "+message ,{
+$.ajax('https://api.msg91.com/api/sendhttp.php?sender=MSGIND&route=4&mobiles=919536336639&authkey=195354ADqhVeq5rCfn5a6c587b&encrypt=&country=91&message=' + name+" from "+email+" saying :    "+message ,{
 
 success:function(response){
 
