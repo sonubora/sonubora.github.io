@@ -23,7 +23,7 @@ var name =  $("input[name='personName']").val();
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "http://api.msg91.com/api/sendhttp.php?sender=MSGIND&route=4&mobiles=919536336639&authkey=195354ADqhVeq5rCfn5a6c587b&encrypt=&country=91&message=" +name+" having mail id "+email+"has message for u  "+message +"",
+  "url": "https://api.msg91.com/api/sendhttp.php?sender=MSGIND&route=4&mobiles=919536336639&authkey=195354ADqhVeq5rCfn5a6c587b&encrypt=&country=91&message=" +name+" having mail id "+email+"has message for u  "+message +"",
   "method": "GET",
   "headers": {}
 };
