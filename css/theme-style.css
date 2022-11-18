@@ -80,6 +80,15 @@ html, body{
 .right-msg{
 	float:right;
 }
+.resume-Btn{
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		background: url(../images/msg.png) no-repeat 0px 0px;
+		vertical-align: middle;
+		float:right;
+	
+}
 .top-grid span{
 	width:143px;
 	height:143px;
